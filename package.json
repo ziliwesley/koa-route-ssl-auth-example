@@ -1,0 +1,34 @@
+{
+  "name": "koa-route-ssl-auth-example",
+  "version": "1.0.0",
+  "description": "A sample project using certificate-based authentication",
+  "main": "serve.js",
+  "scripts": {
+    "start": "node --use_strict serve.js",
+    "server": "node --use_strict serve.js",
+    "client": "node --use_strict client.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ziliwesley/koa-route-ssl-auth-example.git"
+  },
+  "keywords": [
+    "ssl",
+    "koa",
+    "https",
+    "request"
+  ],
+  "author": "Zili",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ziliwesley/koa-route-ssl-auth-example/issues"
+  },
+  "homepage": "https://github.com/ziliwesley/koa-route-ssl-auth-example#readme",
+  "dependencies": {
+    "chalk": "^1.1.1",
+    "koa": "^1.1.0",
+    "koa-router": "^5.2.3",
+    "request": "^2.65.0"
+  }
+}
