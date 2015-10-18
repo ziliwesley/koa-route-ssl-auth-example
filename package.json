@@ -7,6 +7,7 @@
     "start": "node --use_strict serve.js",
     "server": "node --use_strict serve.js",
     "client": "node --use_strict client.js",
+    "cert": "node --use_strict generate-client-cert.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -26,9 +27,12 @@
   },
   "homepage": "https://github.com/ziliwesley/koa-route-ssl-auth-example#readme",
   "dependencies": {
+    "bluebird": "^2.10.2",
     "chalk": "^1.1.1",
+    "inquirer": "^0.10.1",
     "koa": "^1.1.0",
     "koa-router": "^5.2.3",
+    "openssl-wrapper": "^0.2.1",
     "request": "^2.65.0"
   }
 }
