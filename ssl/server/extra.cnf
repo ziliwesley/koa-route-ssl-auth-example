@@ -1,0 +1,6 @@
+subjectAltName=@alt_names
+
+[alt_names]
+DNS.1=local.ldsconnect.org
+IP.1=192.168.1.119
+IP.2=127.0.0.1
